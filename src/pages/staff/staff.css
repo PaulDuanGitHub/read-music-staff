@@ -2,3 +2,8 @@ input{
     margin-left: 5px;
     width: 100px;
 }
+
+.button{
+    margin-left: 20px !important;
+    margin-bottom: 20px;
+}

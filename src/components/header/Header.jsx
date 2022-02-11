@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <div>
         <div className='header'>
-          <a href=""><img src={Logo} alt=""/></a>
+          <a href="/"><img src={Logo} alt=""/></a>
         </div>
       </div>
     )
