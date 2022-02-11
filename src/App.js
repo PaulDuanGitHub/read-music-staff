@@ -1,7 +1,7 @@
 import React from 'react'
-import Staff from './pages/staff/Staff'
 import Header from './components/header/Header'
 import { BrowserRouter } from 'react-router-dom'
+import Navigation from './components/nav/Navigation'
 
 export default class App extends React.Component {
   render() {
@@ -9,6 +9,7 @@ export default class App extends React.Component {
       <div>
         <BrowserRouter>
           <Header/>
+          <Navigation/>
         </BrowserRouter>
       </div>
     )
